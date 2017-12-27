@@ -1,0 +1,20 @@
+{
+  "title": "vue-router",
+  "gitbook": ">3.0.0",
+  "plugins": ["edit-link", "theme-vuejs", "-fontsettings", "github"],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/luckymore/standard/",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/luckymore/standard/"
+    }
+  },
+  "links": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false
+    }
+  }
+}

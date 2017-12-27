@@ -1,0 +1,24 @@
+{
+  "title": "fe-standard",
+  "gitbook": ">3.0.0",
+  "plugins": ["edit-link", "theme-vuejs", "-fontsettings", "github", "ad"],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/luckymore/standard/",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/luckymore/standard/"
+    },
+    "ad": {
+      "contentTop": "<div>Ads at the top of the page</div>",
+      "contentBottom": "%3Cdiv%3EAds%20at%20the%20bottom%20of%20the%20page%3C/div%3E"
+    }
+  },
+  "links": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false
+    }
+  }
+}

@@ -1,0 +1,866 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>组件命名 · fe-standard</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-vuejs/vue.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="component.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=vuejs" id="_carbonads_js"></script>
+
+
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    HTML规范
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../html/code.html">
+            
+                <a href="../html/code.html">
+            
+                    
+                    代码规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    CSS规范
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../css/code.html">
+            
+                <a href="../css/code.html">
+            
+                    
+                    代码规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    JS规范
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../js/code.html">
+            
+                <a href="../js/code.html">
+            
+                    
+                    代码规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    VUE规范
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" >
+            
+                <a target="_blank" href="https://cn.vuejs.org/v2/style-guide/">
+            
+                    
+                    风格指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="component.html">
+            
+                <a href="component.html">
+            
+                    
+                    组件规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.3" data-path="naming.html">
+            
+                <a href="naming.html">
+            
+                    
+                    组件命名
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    命名规范
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../naming/catalogue.html">
+            
+                <a href="../naming/catalogue.html">
+            
+                    
+                    目录命名
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+  
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >组件命名</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x79C1;&#x6709;&#x5C5E;&#x6027;&#x540D;-&#x5FC5;&#x8981;">&#x79C1;&#x6709;&#x5C5E;&#x6027;&#x540D; <sup data-p="a">&#x5FC5;&#x8981;</sup></h3>
+<p><strong>&#x5728;&#x63D2;&#x4EF6;&#x3001;&#x6DF7;&#x5165;&#x7B49;&#x6269;&#x5C55;&#x4E2D;&#x59CB;&#x7EC8;&#x4E3A;&#x81EA;&#x5B9A;&#x4E49;&#x7684;&#x79C1;&#x6709;&#x5C5E;&#x6027;&#x4F7F;&#x7528; <code>$_</code> &#x524D;&#x7F00;&#x3002;&#x5E76;&#x9644;&#x5E26;&#x4E00;&#x4E2A;&#x547D;&#x540D;&#x7A7A;&#x95F4;&#x4EE5;&#x56DE;&#x907F;&#x548C;&#x5176;&#x5B83;&#x4F5C;&#x8005;&#x7684;&#x51B2;&#x7A81; (&#x6BD4;&#x5982; <code>$_yourPluginName_</code>)&#x3002;</strong></p>
+<details style="background:#eee; padding-left:15px;">
+<summary>
+  <b>&#x8BE6;&#x89E3;</b>
+</summary>
+
+Vue &#x4F7F;&#x7528; `_` &#x524D;&#x7F00;&#x6765;&#x5B9A;&#x4E49;&#x5176;&#x81EA;&#x8EAB;&#x7684;&#x79C1;&#x6709;&#x5C5E;&#x6027;&#xFF0C;&#x6240;&#x4EE5;&#x4F7F;&#x7528;&#x76F8;&#x540C;&#x7684;&#x524D;&#x7F00; (&#x6BD4;&#x5982; `_update`) &#x6709;&#x8986;&#x5199;&#x5B9E;&#x4F8B;&#x5C5E;&#x6027;&#x7684;&#x98CE;&#x9669;&#x3002;&#x5373;&#x4FBF;&#x4F60;&#x68C0;&#x67E5;&#x786E;&#x8BA4; Vue &#x5F53;&#x524D;&#x7248;&#x672C;&#x6CA1;&#x6709;&#x7528;&#x5230;&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#x540D;&#xFF0C;&#x4E5F;&#x4E0D;&#x80FD;&#x4FDD;&#x8BC1;&#x548C;&#x5C06;&#x6765;&#x7684;&#x7248;&#x672C;&#x6CA1;&#x6709;&#x51B2;&#x7A81;&#x3002;
+
+&#x5BF9;&#x4E8E; `$` &#x524D;&#x7F00;&#x6765;&#x8BF4;&#xFF0C;&#x5176;&#x5728; Vue &#x751F;&#x6001;&#x7CFB;&#x7EDF;&#x4E2D;&#x7684;&#x76EE;&#x7684;&#x662F;&#x66B4;&#x9732;&#x7ED9;&#x7528;&#x6237;&#x7684;&#x4E00;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x5B9E;&#x4F8B;&#x5C5E;&#x6027;&#xFF0C;&#x6240;&#x4EE5;&#x628A;&#x5B83;&#x7528;&#x4E8E;_&#x79C1;&#x6709;_&#x5C5E;&#x6027;&#x5E76;&#x4E0D;&#x5408;&#x9002;&#x3002;
+
+&#x4E0D;&#x8FC7;&#xFF0C;&#x6211;&#x4EEC;&#x63A8;&#x8350;&#x628A;&#x8FD9;&#x4E24;&#x4E2A;&#x524D;&#x7F00;&#x7ED3;&#x5408;&#x4E3A; `$_`&#xFF0C;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x5B9A;&#x4E49;&#x7684;&#x79C1;&#x6709;&#x5C5E;&#x6027;&#x7684;&#x7EA6;&#x5B9A;&#xFF0C;&#x4EE5;&#x786E;&#x4FDD;&#x4E0D;&#x4F1A;&#x548C; Vue &#x81EA;&#x8EAB;&#x76F8;&#x51B2;&#x7A81;&#x3002;
+
+</details>
+<style>
+  sup[data-p="a"]{
+    font-size: 16px;
+    color: #8c480a;
+  }
+  #carbonads {
+    display: none;
+  }
+</style>
+
+<div class="style-example example-bad">
+#### &#x53CD;&#x4F8B;
+
+``` js
+var myGreatMixin = {
+  // ...
+  methods: {
+    update: function () {
+      // ...
+    }
+  }
+}
+```
+
+``` js
+var myGreatMixin = {
+  // ...
+  methods: {
+    _update: function () {
+      // ...
+    }
+  }
+}
+```
+
+``` js
+var myGreatMixin = {
+  // ...
+  methods: {
+    $update: function () {
+      // ...
+    }
+  }
+}
+```
+
+``` js
+var myGreatMixin = {
+  // ...
+  methods: {
+    $_update: function () {
+      // ...
+    }
+  }
+}
+```
+</div>
+
+<div class="style-example example-good">
+#### &#x597D;&#x4F8B;&#x5B50;
+
+``` js
+var myGreatMixin = {
+  // ...
+  methods: {
+    $_myGreatMixin_update: function () {
+      // ...
+    }
+  }
+}
+```
+</div>
+
+
+
+## &#x4F18;&#x5148;&#x7EA7; B &#x7684;&#x89C4;&#x5219;&#xFF1A;&#x5F3A;&#x70C8;&#x63A8;&#x8350; (&#x589E;&#x5F3A;&#x53EF;&#x8BFB;&#x6027;)
+
+
+
+### &#x7EC4;&#x4EF6;&#x6587;&#x4EF6; <sup data-p="b">&#x5F3A;&#x70C8;&#x63A8;&#x8350;</sup>
+
+**&#x53EA;&#x8981;&#x6709;&#x80FD;&#x591F;&#x62FC;&#x63A5;&#x6587;&#x4EF6;&#x7684;&#x6784;&#x5EFA;&#x7CFB;&#x7EDF;&#xFF0C;&#x5C31;&#x628A;&#x6BCF;&#x4E2A;&#x7EC4;&#x4EF6;&#x5355;&#x72EC;&#x5206;&#x6210;&#x6587;&#x4EF6;&#x3002;**
+
+&#x5F53;&#x4F60;&#x9700;&#x8981;&#x7F16;&#x8F91;&#x4E00;&#x4E2A;&#x7EC4;&#x4EF6;&#x6216;&#x67E5;&#x9605;&#x4E00;&#x4E2A;&#x7EC4;&#x4EF6;&#x7684;&#x7528;&#x6CD5;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x66F4;&#x5FEB;&#x901F;&#x7684;&#x627E;&#x5230;&#x5B83;&#x3002;
+
+<div class="style-example example-bad">
+#### &#x53CD;&#x4F8B;
+
+``` js
+Vue.component(&apos;TodoList&apos;, {
+  // ...
+})
+
+Vue.component(&apos;TodoItem&apos;, {
+  // ...
+})
+```
+</div>
+
+<div class="style-example example-good">
+#### &#x597D;&#x4F8B;&#x5B50;
+
+```
+components/
+|- TodoList.js
+|- TodoItem.js
+```
+
+```
+components/
+|- TodoList.vue
+|- TodoItem.vue
+```
+</div>
+
+
+
+### &#x5355;&#x6587;&#x4EF6;&#x7EC4;&#x4EF6;&#x6587;&#x4EF6;&#x7684;&#x5927;&#x5C0F;&#x5199; <sup data-p="b">&#x5F3A;&#x70C8;&#x63A8;&#x8350;</sup>
+
+**[&#x5355;&#x6587;&#x4EF6;&#x7EC4;&#x4EF6;](../guide/single-file-components.html)&#x7684;&#x6587;&#x4EF6;&#x540D;&#x5E94;&#x8BE5;&#x8981;&#x4E48;&#x59CB;&#x7EC8;&#x662F;&#x5355;&#x8BCD;&#x5927;&#x5199;&#x5F00;&#x5934; (PascalCase)&#xFF0C;&#x8981;&#x4E48;&#x59CB;&#x7EC8;&#x662F;&#x6A2A;&#x7EBF;&#x8FDE;&#x63A5; (kebab-case)&#x3002;**
+
+&#x5355;&#x8BCD;&#x5927;&#x5199;&#x5F00;&#x5934;&#x5BF9;&#x4E8E;&#x4EE3;&#x7801;&#x7F16;&#x8F91;&#x5668;&#x7684;&#x81EA;&#x52A8;&#x8865;&#x5168;&#x6700;&#x4E3A;&#x53CB;&#x597D;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x4F7F;&#x5F97;&#x6211;&#x4EEC;&#x5728; JS(X) &#x548C;&#x6A21;&#x677F;&#x4E2D;&#x5F15;&#x7528;&#x7EC4;&#x4EF6;&#x7684;&#x65B9;&#x5F0F;&#x5C3D;&#x53EF;&#x80FD;&#x7684;&#x4E00;&#x81F4;&#x3002;&#x7136;&#x800C;&#xFF0C;&#x6DF7;&#x7528;&#x6587;&#x4EF6;&#x547D;&#x540D;&#x65B9;&#x5F0F;&#x6709;&#x7684;&#x65F6;&#x5019;&#x4F1A;&#x5BFC;&#x81F4;&#x5927;&#x5C0F;&#x5199;&#x4E0D;&#x654F;&#x611F;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x8FD9;&#x4E5F;&#x662F;&#x6A2A;&#x7EBF;&#x8FDE;&#x63A5;&#x547D;&#x540D;&#x540C;&#x6837;&#x5B8C;&#x5168;&#x53EF;&#x53D6;&#x7684;&#x539F;&#x56E0;&#x3002;
+
+<div class="style-example example-bad">
+#### &#x53CD;&#x4F8B;
+
+```
+components/
+|- mycomponent.vue
+```
+
+```
+components/
+|- myComponent.vue
+```
+</div>
+
+<div class="style-example example-good">
+#### &#x597D;&#x4F8B;&#x5B50;
+
+```
+components/
+|- MyComponent.vue
+```
+
+```
+components/
+|- my-component.vue
+```
+</div>
+
+
+
+### &#x57FA;&#x7840;&#x7EC4;&#x4EF6;&#x540D; <sup data-p="b">&#x5F3A;&#x70C8;&#x63A8;&#x8350;</sup>
+
+**&#x5E94;&#x7528;&#x7279;&#x5B9A;&#x6837;&#x5F0F;&#x548C;&#x7EA6;&#x5B9A;&#x7684;&#x57FA;&#x7840;&#x7EC4;&#x4EF6; (&#x4E5F;&#x5C31;&#x662F;&#x5C55;&#x793A;&#x7C7B;&#x7684;&#x3001;&#x65E0;&#x903B;&#x8F91;&#x7684;&#x6216;&#x65E0;&#x72B6;&#x6001;&#x7684;&#x7EC4;&#x4EF6;) &#x5E94;&#x8BE5;&#x5168;&#x90E8;&#x4EE5;&#x4E00;&#x4E2A;&#x7279;&#x5B9A;&#x7684;&#x524D;&#x7F00;&#x5F00;&#x5934;&#xFF0C;&#x6BD4;&#x5982; `Base`&#x3001;`App` &#x6216; `V`&#x3002;**
+
+
+<details>
+<summary>
+  <h4 id="&#x8BE6;&#x89E3;">&#x8BE6;&#x89E3;</h4>
+</summary>
+
+
+&#x8FD9;&#x4E9B;&#x7EC4;&#x4EF6;&#x4E3A;&#x4F60;&#x7684;&#x5E94;&#x7528;&#x5960;&#x5B9A;&#x4E86;&#x4E00;&#x81F4;&#x7684;&#x57FA;&#x7840;&#x6837;&#x5F0F;&#x548C;&#x884C;&#x4E3A;&#x3002;&#x5B83;&#x4EEC;&#x53EF;&#x80FD;**&#x53EA;**&#x5305;&#x62EC;&#xFF1A;
+
+- HTML &#x5143;&#x7D20;
+- &#x5176;&#x5B83;&#x5E26; `Base` &#x524D;&#x7F00;&#x7684;&#x7EC4;&#x4EF6;
+- &#x7B2C;&#x4E09;&#x65B9; UI &#x7EC4;&#x4EF6;&#x5E93;
+
+&#x4F46;&#x662F;&#x5B83;&#x4EEC;**&#x7EDD;&#x4E0D;&#x4F1A;**&#x5305;&#x62EC;&#x5168;&#x5C40;&#x72B6;&#x6001; (&#x6BD4;&#x5982;&#x6765;&#x81EA; Vuex store)&#x3002;
+
+&#x5B83;&#x4EEC;&#x7684;&#x540D;&#x5B57;&#x901A;&#x5E38;&#x5305;&#x542B;&#x6240;&#x5305;&#x88F9;&#x5143;&#x7D20;&#x7684;&#x540D;&#x5B57; (&#x6BD4;&#x5982; `BaseButton`&#x3001;`BaseTable`)&#xFF0C;&#x9664;&#x975E;&#x6CA1;&#x6709;&#x73B0;&#x6210;&#x7684;&#x5BF9;&#x5E94;&#x529F;&#x80FD;&#x7684;&#x5143;&#x7D20; (&#x6BD4;&#x5982; `BaseIcon`)&#x3002;&#x5982;&#x679C;&#x4F60;&#x4E3A;&#x7279;&#x5B9A;&#x7684;&#x4E0A;&#x4E0B;&#x6587;&#x6784;&#x5EFA;&#x7C7B;&#x4F3C;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;&#x90A3;&#x5B83;&#x4EEC;&#x51E0;&#x4E4E;&#x603B;&#x4F1A;&#x6D88;&#x8D39;&#x8FD9;&#x4E9B;&#x7EC4;&#x4EF6; (&#x6BD4;&#x5982; `BaseButton` &#x53EF;&#x80FD;&#x4F1A;&#x7528;&#x5728; `ButtonSubmit` &#x4E0A;)&#x3002;
+
+&#x8FD9;&#x6837;&#x505A;&#x7684;&#x51E0;&#x4E2A;&#x597D;&#x5904;&#xFF1A;
+
+- &#x5F53;&#x4F60;&#x5728;&#x7F16;&#x8F91;&#x5668;&#x4E2D;&#x4EE5;&#x5B57;&#x6BCD;&#x987A;&#x5E8F;&#x6392;&#x5E8F;&#x65F6;&#xFF0C;&#x4F60;&#x7684;&#x5E94;&#x7528;&#x7684;&#x57FA;&#x7840;&#x7EC4;&#x4EF6;&#x4F1A;&#x5168;&#x90E8;&#x5217;&#x5728;&#x4E00;&#x8D77;&#xFF0C;&#x8FD9;&#x6837;&#x66F4;&#x5BB9;&#x6613;&#x8BC6;&#x522B;&#x3002;
+
+- &#x56E0;&#x4E3A;&#x7EC4;&#x4EF6;&#x540D;&#x5E94;&#x8BE5;&#x59CB;&#x7EC8;&#x662F;&#x591A;&#x4E2A;&#x5355;&#x8BCD;&#xFF0C;&#x6240;&#x4EE5;&#x8FD9;&#x6837;&#x505A;&#x53EF;&#x4EE5;&#x907F;&#x514D;&#x4F60;&#x5728;&#x5305;&#x88F9;&#x7B80;&#x5355;&#x7EC4;&#x4EF6;&#x65F6;&#x968F;&#x610F;&#x9009;&#x62E9;&#x524D;&#x7F00; (&#x6BD4;&#x5982; `MyButton`&#x3001;`VueButton`)&#x3002;
+
+- &#x56E0;&#x4E3A;&#x8FD9;&#x4E9B;&#x7EC4;&#x4EF6;&#x4F1A;&#x88AB;&#x9891;&#x7E41;&#x4F7F;&#x7528;&#xFF0C;&#x6240;&#x4EE5;&#x4F60;&#x53EF;&#x80FD;&#x60F3;&#x628A;&#x5B83;&#x4EEC;&#x653E;&#x5230;&#x5168;&#x5C40;&#x800C;&#x4E0D;&#x662F;&#x5728;&#x5404;&#x5904;&#x5206;&#x522B;&#x5BFC;&#x5165;&#x5B83;&#x4EEC;&#x3002;&#x4F7F;&#x7528;&#x76F8;&#x540C;&#x7684;&#x524D;&#x7F00;&#x53EF;&#x4EE5;&#x8BA9; webpack &#x8FD9;&#x6837;&#x5DE5;&#x4F5C;&#xFF1A;
+
+  ``` js
+  var requireComponent = require.context(&quot;./src&quot;, true, /^Base[A-Z]/)
+  requireComponent.keys().forEach(function (fileName) {
+    var baseComponentConfig = requireComponent(fileName)
+    baseComponentConfig = baseComponentConfig.default || baseComponentConfig
+    var baseComponentName = baseComponentConfig.name || (
+      fileName
+        .replace(/^.+\//, &apos;&apos;)
+        .replace(/\.\w+$/, &apos;&apos;)
+    )
+    Vue.component(baseComponentName, baseComponentConfig)
+  })
+  ```
+
+</details>
+
+<div class="style-example example-bad">
+#### &#x53CD;&#x4F8B;
+
+```
+components/
+|- MyButton.vue
+|- VueTable.vue
+|- Icon.vue
+```
+</div>
+
+<div class="style-example example-good">
+#### &#x597D;&#x4F8B;&#x5B50;
+
+```
+components/
+|- BaseButton.vue
+|- BaseTable.vue
+|- BaseIcon.vue
+```
+
+```
+components/
+|- AppButton.vue
+|- AppTable.vue
+|- AppIcon.vue
+```
+
+```
+components/
+|- VButton.vue
+|- VTable.vue
+|- VIcon.vue
+```
+</div>
+
+
+
+<h3 id="&#x5355;&#x4F8B;&#x7EC4;&#x4EF6;&#x540D;-&#x5F3A;&#x70C8;&#x63A8;&#x8350;">&#x5355;&#x4F8B;&#x7EC4;&#x4EF6;&#x540D; <sup data-p="b">&#x5F3A;&#x70C8;&#x63A8;&#x8350;</sup></h3>
+<p><strong>&#x53EA;&#x5E94;&#x8BE5;&#x62E5;&#x6709;&#x5355;&#x4E2A;&#x6D3B;&#x8DC3;&#x5B9E;&#x4F8B;&#x7684;&#x7EC4;&#x4EF6;&#x5E94;&#x8BE5;&#x4EE5; <code>The</code> &#x524D;&#x7F00;&#x547D;&#x540D;&#xFF0C;&#x4EE5;&#x793A;&#x5176;&#x552F;&#x4E00;&#x6027;&#x3002;</strong></p>
+<p>&#x8FD9;&#x4E0D;&#x610F;&#x5473;&#x7740;&#x7EC4;&#x4EF6;&#x53EA;&#x53EF;&#x7528;&#x4E8E;&#x4E00;&#x4E2A;&#x5355;&#x9875;&#x9762;&#xFF0C;&#x800C;&#x662F;<em>&#x6BCF;&#x4E2A;&#x9875;&#x9762;</em>&#x53EA;&#x4F7F;&#x7528;&#x4E00;&#x6B21;&#x3002;&#x8FD9;&#x4E9B;&#x7EC4;&#x4EF6;&#x6C38;&#x8FDC;&#x4E0D;&#x63A5;&#x53D7;&#x4EFB;&#x4F55; prop&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x662F;&#x4E3A;&#x4F60;&#x7684;&#x5E94;&#x7528;&#x5B9A;&#x5236;&#x7684;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x5B83;&#x4EEC;&#x5728;&#x4F60;&#x7684;&#x5E94;&#x7528;&#x4E2D;&#x7684;&#x4E0A;&#x4E0B;&#x6587;&#x3002;&#x5982;&#x679C;&#x4F60;&#x53D1;&#x73B0;&#x6709;&#x5FC5;&#x8981;&#x6DFB;&#x52A0; prop&#xFF0C;&#x90A3;&#x5C31;&#x8868;&#x660E;&#x8FD9;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x4E00;&#x4E2A;&#x53EF;&#x590D;&#x7528;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;<em>&#x53EA;&#x662F;&#x76EE;&#x524D;</em>&#x5728;&#x6BCF;&#x4E2A;&#x9875;&#x9762;&#x91CC;&#x53EA;&#x4F7F;&#x7528;&#x4E00;&#x6B21;&#x3002;</p>
+<div class="style-example example-bad">
+#### &#x53CD;&#x4F8B;
+
+```
+components/
+|- Heading.vue
+|- MySidebar.vue
+```
+</div>
+
+<div class="style-example example-good">
+#### &#x597D;&#x4F8B;&#x5B50;
+
+```
+components/
+|- TheHeading.vue
+|- TheSidebar.vue
+```
+</div>
+
+
+
+<h3 id="&#x7D27;&#x5BC6;&#x8026;&#x5408;&#x7684;&#x7EC4;&#x4EF6;&#x540D;-&#x5F3A;&#x70C8;&#x63A8;&#x8350;">&#x7D27;&#x5BC6;&#x8026;&#x5408;&#x7684;&#x7EC4;&#x4EF6;&#x540D; <sup data-p="b">&#x5F3A;&#x70C8;&#x63A8;&#x8350;</sup></h3>
+<p><strong>&#x548C;&#x7236;&#x7EC4;&#x4EF6;&#x7D27;&#x5BC6;&#x8026;&#x5408;&#x7684;&#x5B50;&#x7EC4;&#x4EF6;&#x5E94;&#x8BE5;&#x4EE5;&#x7236;&#x7EC4;&#x4EF6;&#x540D;&#x4F5C;&#x4E3A;&#x524D;&#x7F00;&#x547D;&#x540D;&#x3002;</strong></p>
+<p>&#x5982;&#x679C;&#x4E00;&#x4E2A;&#x7EC4;&#x4EF6;&#x53EA;&#x5728;&#x67D0;&#x4E2A;&#x7236;&#x7EC4;&#x4EF6;&#x7684;&#x573A;&#x666F;&#x4E0B;&#x6709;&#x610F;&#x4E49;&#xFF0C;&#x8FD9;&#x5C42;&#x5173;&#x7CFB;&#x5E94;&#x8BE5;&#x4F53;&#x73B0;&#x5728;&#x5176;&#x540D;&#x5B57;&#x4E0A;&#x3002;&#x56E0;&#x4E3A;&#x7F16;&#x8F91;&#x5668;&#x901A;&#x5E38;&#x4F1A;&#x6309;&#x5B57;&#x6BCD;&#x987A;&#x5E8F;&#x7EC4;&#x7EC7;&#x6587;&#x4EF6;&#xFF0C;&#x6240;&#x4EE5;&#x8FD9;&#x6837;&#x505A;&#x53EF;&#x4EE5;&#x628A;&#x76F8;&#x5173;&#x8054;&#x7684;&#x6587;&#x4EF6;&#x6392;&#x5728;&#x4E00;&#x8D77;&#x3002;</p>
+<details>
+<summary>
+  <h4 id="&#x8BE6;&#x89E3;">&#x8BE6;&#x89E3;</h4>
+</summary>
+
+
+&#x4F60;&#x53EF;&#x4EE5;&#x8BD5;&#x7740;&#x901A;&#x8FC7;&#x5728;&#x5176;&#x7236;&#x7EC4;&#x4EF6;&#x547D;&#x540D;&#x7684;&#x76EE;&#x5F55;&#x4E2D;&#x5D4C;&#x5957;&#x5B50;&#x7EC4;&#x4EF6;&#x4EE5;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x3002;&#x6BD4;&#x5982;&#xFF1A;
+
+```
+components/
+|- TodoList/
+   |- Item/
+      |- index.vue
+      |- Button.vue
+   |- index.vue
+```
+
+&#x6216;&#xFF1A;
+
+```
+components/
+|- TodoList/
+   |- Item/
+      |- Button.vue
+   |- Item.vue
+|- TodoList.vue
+```
+
+&#x4F46;&#x662F;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x5E76;&#x4E0D;&#x63A8;&#x8350;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x4F1A;&#x5BFC;&#x81F4;&#xFF1A;
+
+- &#x8BB8;&#x591A;&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#x76F8;&#x540C;&#xFF0C;&#x4F7F;&#x5F97;&#x5728;&#x7F16;&#x8F91;&#x5668;&#x4E2D;&#x5FEB;&#x901F;&#x5207;&#x6362;&#x6587;&#x4EF6;&#x53D8;&#x5F97;&#x56F0;&#x96BE;&#x3002;
+- &#x8FC7;&#x591A;&#x5D4C;&#x5957;&#x7684;&#x5B50;&#x76EE;&#x5F55;&#x589E;&#x52A0;&#x4E86;&#x5728;&#x7F16;&#x8F91;&#x5668;&#x4FA7;&#x8FB9;&#x680F;&#x4E2D;&#x6D4F;&#x89C8;&#x7EC4;&#x4EF6;&#x6240;&#x82B1;&#x7684;&#x65F6;&#x95F4;&#x3002;
+
+</details>
+
+<div class="style-example example-bad">
+#### &#x53CD;&#x4F8B;
+
+```
+components/
+|- TodoList.vue
+|- TodoItem.vue
+|- TodoButton.vue
+```
+
+```
+components/
+|- SearchSidebar.vue
+|- NavigationForSearchSidebar.vue
+```
+</div>
+
+<div class="style-example example-good">
+#### &#x597D;&#x4F8B;&#x5B50;
+
+```
+components/
+|- TodoList.vue
+|- TodoListItem.vue
+|- TodoListItemButton.vue
+```
+
+```
+components/
+|- SearchSidebar.vue
+|- SearchSidebarNavigation.vue
+```
+</div>
+
+
+
+<h3 id="&#x7EC4;&#x4EF6;&#x540D;&#x4E2D;&#x7684;&#x5355;&#x8BCD;&#x987A;&#x5E8F;-&#x5F3A;&#x70C8;&#x63A8;&#x8350;">&#x7EC4;&#x4EF6;&#x540D;&#x4E2D;&#x7684;&#x5355;&#x8BCD;&#x987A;&#x5E8F; <sup data-p="b">&#x5F3A;&#x70C8;&#x63A8;&#x8350;</sup></h3>
+<p><strong>&#x7EC4;&#x4EF6;&#x540D;&#x5E94;&#x8BE5;&#x4EE5;&#x9AD8;&#x7EA7;&#x522B;&#x7684; (&#x901A;&#x5E38;&#x662F;&#x4E00;&#x822C;&#x5316;&#x63CF;&#x8FF0;&#x7684;) &#x5355;&#x8BCD;&#x5F00;&#x5934;&#xFF0C;&#x4EE5;&#x63CF;&#x8FF0;&#x6027;&#x7684;&#x4FEE;&#x9970;&#x8BCD;&#x7ED3;&#x5C3E;&#x3002;</strong></p>
+<details>
+<summary>
+  <h4 id="&#x8BE6;&#x89E3;">&#x8BE6;&#x89E3;</h4>
+</summary>
+
+
+&#x4F60;&#x53EF;&#x80FD;&#x4F1A;&#x7591;&#x60D1;&#xFF1A;
+
+&gt; &#x201C;&#x4E3A;&#x4EC0;&#x4E48;&#x6211;&#x4EEC;&#x7ED9;&#x7EC4;&#x4EF6;&#x547D;&#x540D;&#x65F6;&#x4E0D;&#x591A;&#x9075;&#x4ECE;&#x81EA;&#x7136;&#x8BED;&#x8A00;&#x5462;&#xFF1F;&#x201D;
+
+&#x5728;&#x81EA;&#x7136;&#x7684;&#x82F1;&#x6587;&#x91CC;&#xFF0C;&#x5F62;&#x5BB9;&#x8BCD;&#x548C;&#x5176;&#x5B83;&#x63CF;&#x8FF0;&#x8BED;&#x901A;&#x5E38;&#x90FD;&#x51FA;&#x73B0;&#x5728;&#x540D;&#x8BCD;&#x4E4B;&#x524D;&#xFF0C;&#x5426;&#x5219;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x8FDE;&#x63A5;&#x8BCD;&#x3002;&#x6BD4;&#x5982;&#xFF1A;
+
+- Coffee _with_ milk
+- Soup _of the_ day
+- Visitor _to the_ museum
+
+&#x5982;&#x679C;&#x4F60;&#x613F;&#x610F;&#xFF0C;&#x4F60;&#x5B8C;&#x5168;&#x53EF;&#x4EE5;&#x5728;&#x7EC4;&#x4EF6;&#x540D;&#x91CC;&#x5305;&#x542B;&#x8FD9;&#x4E9B;&#x8FDE;&#x63A5;&#x8BCD;&#xFF0C;&#x4F46;&#x662F;&#x5355;&#x8BCD;&#x7684;&#x987A;&#x5E8F;&#x5F88;&#x91CD;&#x8981;&#x3002;
+
+&#x540C;&#x6837;&#x8981;&#x6CE8;&#x610F;**&#x5728;&#x4F60;&#x7684;&#x5E94;&#x7528;&#x4E2D;&#x6240;&#x8C13;&#x7684;&#x201C;&#x9AD8;&#x7EA7;&#x522B;&#x201D;&#x662F;&#x8DDF;&#x8BED;&#x5883;&#x6709;&#x5173;&#x7684;**&#x3002;&#x6BD4;&#x5982;&#x5BF9;&#x4E8E;&#x4E00;&#x4E2A;&#x5E26;&#x641C;&#x7D22;&#x8868;&#x5355;&#x7684;&#x5E94;&#x7528;&#x6765;&#x8BF4;&#xFF0C;&#x5B83;&#x53EF;&#x80FD;&#x5305;&#x542B;&#x8FD9;&#x6837;&#x7684;&#x7EC4;&#x4EF6;&#xFF1A;
+
+```
+components/
+|- ClearSearchButton.vue
+|- ExcludeFromSearchInput.vue
+|- LaunchOnStartupCheckbox.vue
+|- RunSearchButton.vue
+|- SearchInput.vue
+|- TermsCheckbox.vue
+```
+
+&#x4F60;&#x53EF;&#x80FD;&#x6CE8;&#x610F;&#x5230;&#x4E86;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x96BE;&#x770B;&#x51FA;&#x6765;&#x54EA;&#x4E9B;&#x7EC4;&#x4EF6;&#x662F;&#x9488;&#x5BF9;&#x641C;&#x7D22;&#x7684;&#x3002;&#x73B0;&#x5728;&#x6211;&#x4EEC;&#x6765;&#x6839;&#x636E;&#x89C4;&#x5219;&#x7ED9;&#x7EC4;&#x4EF6;&#x91CD;&#x65B0;&#x547D;&#x540D;&#xFF1A;
+
+```
+components/
+|- SearchButtonClear.vue
+|- SearchButtonRun.vue
+|- SearchInputExcludeGlob.vue
+|- SearchInputQuery.vue
+|- SettingsCheckboxLaunchOnStartup.vue
+|- SettingsCheckboxTerms.vue
+```
+
+&#x56E0;&#x4E3A;&#x7F16;&#x8F91;&#x5668;&#x901A;&#x5E38;&#x4F1A;&#x6309;&#x5B57;&#x6BCD;&#x987A;&#x5E8F;&#x7EC4;&#x7EC7;&#x6587;&#x4EF6;&#xFF0C;&#x6240;&#x4EE5;&#x73B0;&#x5728;&#x7EC4;&#x4EF6;&#x4E4B;&#x95F4;&#x7684;&#x91CD;&#x8981;&#x5173;&#x7CFB;&#x4E00;&#x76EE;&#x4E86;&#x7136;&#x3002;
+
+&#x4F60;&#x53EF;&#x80FD;&#x60F3;&#x6362;&#x6210;&#x591A;&#x7EA7;&#x76EE;&#x5F55;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x628A;&#x6240;&#x6709;&#x7684;&#x641C;&#x7D22;&#x7EC4;&#x4EF6;&#x653E;&#x5230;&#x201C;search&#x201D;&#x76EE;&#x5F55;&#xFF0C;&#x628A;&#x6240;&#x6709;&#x7684;&#x8BBE;&#x7F6E;&#x7EC4;&#x4EF6;&#x653E;&#x5230;&#x201C;settings&#x201D;&#x76EE;&#x5F55;&#x3002;&#x6211;&#x4EEC;&#x53EA;&#x63A8;&#x8350;&#x5728;&#x975E;&#x5E38;&#x5927;&#x578B; (&#x5982;&#x6709; 100+ &#x4E2A;&#x7EC4;&#x4EF6;) &#x7684;&#x5E94;&#x7528;&#x4E0B;&#x624D;&#x8003;&#x8651;&#x8FD9;&#x4E48;&#x505A;&#xFF0C;&#x56E0;&#x4E3A;&#xFF1A;
+
+- &#x5728;&#x591A;&#x7EA7;&#x76EE;&#x5F55;&#x95F4;&#x627E;&#x6765;&#x627E;&#x53BB;&#xFF0C;&#x8981;&#x6BD4;&#x5728;&#x5355;&#x4E2A; `components` &#x76EE;&#x5F55;&#x4E0B;&#x6EDA;&#x52A8;&#x67E5;&#x627E;&#x8981;&#x82B1;&#x8D39;&#x66F4;&#x591A;&#x7684;&#x7CBE;&#x529B;&#x3002;
+- &#x5B58;&#x5728;&#x7EC4;&#x4EF6;&#x91CD;&#x540D; (&#x6BD4;&#x5982;&#x5B58;&#x5728;&#x591A;&#x4E2A; `ButtonDelete` &#x7EC4;&#x4EF6;) &#x7684;&#x65F6;&#x5019;&#x5728;&#x7F16;&#x8F91;&#x5668;&#x91CC;&#x66F4;&#x96BE;&#x5FEB;&#x901F;&#x5B9A;&#x4F4D;&#x3002;
+- &#x8BA9;&#x91CD;&#x6784;&#x53D8;&#x5F97;&#x66F4;&#x96BE;&#xFF0C;&#x56E0;&#x4E3A;&#x4E3A;&#x4E00;&#x4E2A;&#x79FB;&#x52A8;&#x4E86;&#x7684;&#x7EC4;&#x4EF6;&#x66F4;&#x65B0;&#x76F8;&#x5173;&#x5F15;&#x7528;&#x65F6;&#xFF0C;&#x67E5;&#x627E;/&#x66FF;&#x6362;&#x901A;&#x5E38;&#x5E76;&#x4E0D;&#x9AD8;&#x6548;&#x3002;
+
+</details>
+
+<div class="style-example example-bad">
+#### &#x53CD;&#x4F8B;
+
+```
+components/
+|- ClearSearchButton.vue
+|- ExcludeFromSearchInput.vue
+|- LaunchOnStartupCheckbox.vue
+|- RunSearchButton.vue
+|- SearchInput.vue
+|- TermsCheckbox.vue
+```
+</div>
+
+<div class="style-example example-good">
+#### &#x597D;&#x4F8B;&#x5B50;
+
+```
+components/
+|- SearchButtonClear.vue
+|- SearchButtonRun.vue
+|- SearchInputQuery.vue
+|- SearchInputExcludeGlob.vue
+|- SettingsCheckboxTerms.vue
+|- SettingsCheckboxLaunchOnStartup.vue
+```
+</div>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+  <script src="//m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+  <div class="bsa-cpc"></div>
+  <script>
+    (function(){
+      if(typeof _bsa !== 'undefined' && _bsa) {
+      _bsa.init('default', 'CKYD62QM', 'placement:vuejsorg', {
+        target: '.bsa-cpc',
+        align: 'horizontal',
+        disable_css: 'true'
+      });
+        }
+    })();
+  </script>
+
+            </div>
+
+            
+                
+                <a href="component.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 组件规范">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"组件命名","level":"1.5.3","depth":2,"next":{"title":"命名规范","level":"1.6","depth":1,"ref":"","articles":[{"title":"目录命名","level":"1.6.1","depth":2,"path":"naming/catalogue.md","ref":"naming/catalogue.md","articles":[]}]},"previous":{"title":"组件规范","level":"1.5.2","depth":2,"path":"vue/component.md","ref":"vue/component.md","articles":[]},"dir":"ltr"},"config":{"plugins":["edit-link","theme-vuejs","-fontsettings","github","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/luckymore/standard/"},"livereload":{},"search":{},"theme-vuejs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"highlight":{},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"Edit This Page","base":"https://github.com/luckymore/standard/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"fe-standard","links":{"sharing":{"facebook":false,"twitter":false}},"gitbook":">3.0.0"},"file":{"path":"vue/naming.md","mtime":"2017-12-26T07:24:03.224Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-12-26T07:29:54.416Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
